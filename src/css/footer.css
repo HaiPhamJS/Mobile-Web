@@ -1,0 +1,46 @@
+.footer {
+    background: url(https://img2.thuthuatphanmem.vn/uploads/2019/01/20/nhung-background-den-dep-nhat_034513345.jpg);
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    color: #fff;
+    margin-top: 50px;
+  }
+  
+  .footer_icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .footer_icon i {
+    float: left;
+    font-size: 2.5rem;
+    margin-right: 20px;
+    color: rgba(2, 126, 251, 1);
+  }
+  
+  .social-icon {
+    width: 15%;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .social-icon li {
+    list-style: none;
+    padding-top: 15px;
+  }
+  
+  .social-icon i {
+    font-size: 1.2rem;
+    color: rgba(2, 126, 251, 1);
+    /* color: transparent; */
+  }
+  
+  .fullScreen {
+    width: 100vw;
+    position: absolute;
+    left: 0;
+  }

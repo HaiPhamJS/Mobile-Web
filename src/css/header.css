@@ -1,0 +1,141 @@
+.header {
+    width: 100%;
+    height: 150px;
+    background-color: #353535;
+    color: #fff;
+}
+
+.top__header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top__left {
+    display: flex;
+    justify-content: space-between;
+    width: 42%;
+    margin-top: 8px;
+}
+
+.top__left span {
+    margin-left: 8px;
+}
+
+.top__contact {
+    width: 8%;
+    margin-top: 8px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.top__wrap {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 18px;
+    border: 0.1px solid var(--primary-color);
+}
+
+.row {
+    align-content: space-between;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.aa {
+    height: 100px;
+    background-color: #353535;
+    color: #fff;
+}
+
+.wrapper__img {
+    font-size: 28px;
+    margin-top: 20px;
+}
+
+.wrapper__search {
+    display: flex;
+    position: relative;
+    margin-top: 20px;
+    justify-content: flex-end;
+}
+
+.wrapper__menu__search {
+    width: 75%;
+    height: 34px;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    padding: 0 20px;
+}
+
+.wrapper__search .menu__search--icon {
+    position: absolute;
+    left: calc(100% - 64px);
+    right: 16px;
+    font-size: 15px;
+    cursor: pointer;
+    width: 50px;
+    height: 34px;
+    padding: 10px 0 0 0;
+    background-color: var(--primary-color);
+    text-align: center;
+    border-radius: 3px;
+}
+
+.wrapper__search .menu__search--icon:hover {
+    background-color: #1A94FF;
+    transition: all linear 0.2s;
+}
+
+.wrapper__user {
+    display: flex;
+    position: relative;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 25px;
+}
+
+.menu__user--icon {
+    font-size: 23px;
+    margin-left: 85px;
+}
+
+.menu__user {
+    position: absolute;
+    font-weight: 400;
+    margin-left: 18px;
+    margin-left: 110px;
+    cursor: pointer;
+}
+
+.wrapper__cart {
+    display: flex;
+    position: relative;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.menu__cart--icon {
+    font-size: 23px;
+    margin-left: 55px;
+}
+
+.menu__cart {
+    position: absolute;
+    font-weight: 400;
+    margin-left: 85px;
+}
+
+.menu__user {
+    font-size: 14px;
+}
+
+.menu__cart {
+    font-size: 14px;
+}

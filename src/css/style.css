@@ -1,0 +1,278 @@
+:root {
+    --primary-color: rgba(2, 126, 251, 1);
+    --second-color: red;
+    --background: #333333;
+}
+
+/* Reuse css */
+
+.flex {
+    display: flex;
+}
+
+.second {
+    color: var(--second-color);
+}
+
+.white {
+    color: white;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.chuGachNgang {
+    text-decoration: line-through;
+}
+
+.mt30 {
+    margin-top: 30px;
+}
+
+.widthmax {
+    width: max-content;
+}
+
+.heightmax {
+    height: max-content;
+}
+
+.h50 {
+    height: 50px;
+}
+
+.red {
+    background-color: red;
+}
+
+.redtxt {
+    color: var(--second-color);
+}
+
+.txtPri {
+    color: var(--primary-color);
+}
+
+.nenden {
+    background-color: var(--background);
+}
+
+.backPri {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.colorPri {
+    color: var(--primary-color);
+    text-decoration: underline;
+}
+
+/* Header control */
+
+.header-router ul {
+    list-style: none;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.header-router ul li {
+    line-height: 50px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.header-router ul li:hover {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.home__bannerSub {
+    height: max-content;
+}
+
+.home__bannerSub img {
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.card img {
+    width: 100%;
+    height: 40vh;
+    max-height: 250px;
+}
+
+.card_title {
+    border: 0.1px solid gray;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+    border-radius: 8px;
+}
+
+.card_title p {
+    height: 50px;
+    margin-top: 10px;
+}
+
+.card_content {
+    margin-top: -10px;
+    font-size: 18px;
+    color: red;
+    font-weight: 600;
+}
+
+.discout {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background-color: red;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 8px;
+    color: white;
+    top: 0px;
+    left: 0px;
+}
+
+.card_content span:last-child {
+    color: black;
+    text-decoration: line-through;
+    font-size: 14px;
+}
+
+.card__product {
+    margin-bottom: 20px;
+    z-index: 1;
+    padding: 0 12px;
+    text-align: center;
+    position: relative;
+}
+
+.card-discout {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background-color: red;
+    text-align: center;
+    border-radius: 20px;
+    padding-top: 10px;
+    color: white;
+    font-size: 15px;
+    top: 0;
+    left: 0;
+}
+
+.card__product-img img {
+    width: 90%;
+    height: 40vh;
+    max-height: 250px;
+    border-radius: 3px;
+}
+
+.card__product-title {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    height: 40px;
+}
+
+.card__product-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card__product-price-old {
+    text-decoration: line-through;
+    color: #333;
+}
+
+.card__product-price-current {
+    font-size: 16px;
+    color: red;
+    font-weight: 600;
+}
+
+.frame {
+    position: absolute;
+    left: 0px;
+    bottom: 0;
+    width: 100%;
+    height: calc(100% - 320px);
+    background-color: rgba(2, 126, 251, 1);
+    transform: translateY(100%);
+    transition: all .6s linear;
+    z-index: 2;
+    opacity: 0;
+    padding: 0 20px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.card__product:hover {
+    -webkit-box-shadow: 0px 0px 15px 5px rgba(2, 126, 251, 0.75);
+    box-shadow: 0px 0px 15px 5px rgba(2, 126, 251, 0.75);
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+}
+
+.card__product:hover .frame {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.hovera:hover {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.home-select ul li {
+    margin-right: 30px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.viewMore {
+    width: 100%;
+    text-align: center;
+}
+
+.search-left {
+    width: 25%;
+    padding: 10px;
+}
+
+.search-nav ul li {
+    line-height: 40px;
+    font-weight: 500;
+    padding-left: 15px;
+    cursor: pointer;
+}
+
+.search-nav ul li:hover {
+    color: var(--primary-color);
+}
+
+.search-left-sort button {
+    height: 40px;
+    width: 45%;
+    border-radius: 10px;
+    border: none;
+}
+
+.search-left-sort button:first-child {
+    margin-right: 10%;
+}
+
+.search-right {
+    width: 75%;
+    padding-left: 20px;
+}
+
